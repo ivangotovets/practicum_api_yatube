@@ -16,8 +16,9 @@ urlpatterns = [
     path('api/v1/auth/', include('djoser.urls')),
     path('api/v1/', include('djoser.urls.jwt')),
     path('api/v1/schema/', schema_view),
-    path('api/v1/docs/',
-         include_docs_urls(title=API_TITLE, description=API_DESCR)
+    path(
+        'api/v1/docs/',
+        include_docs_urls(title=API_TITLE, description=API_DESCR)
     ),
     path(
         'redoc/',
