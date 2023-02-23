@@ -17,14 +17,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # 'rest_framework',
-    # 'django_filters',
-    # 'djoser',
-
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'django_filters',
+    'djoser',
     'rest_auth',
     'rest_auth.registration',
     'rest_framework',
